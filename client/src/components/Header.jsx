@@ -56,7 +56,7 @@ export default function Header() {
      </Link>
 
      <Link
-      to="sign-in"
+      to="/SignUp"
       className="flex items-center
      gap-3 justify-content: center">
       <RiLoginCircleLine className="text-slate-500 " />
