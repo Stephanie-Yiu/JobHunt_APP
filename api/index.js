@@ -34,4 +34,4 @@ app.use((err, req, res, next) => {
   statusCode: statusCode,
   message,
  });
-}); // Error handling function
+}); // Error handling function(middleware)
