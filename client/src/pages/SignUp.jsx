@@ -34,7 +34,7 @@ export default function SignUp() {
 
    setLoading(false);
    setError(null);
-   navigate('/sign-in');
+   navigate('/signin');
   } catch (error) {
    setLoading(false);
    setError(error.message);
@@ -89,7 +89,7 @@ export default function SignUp() {
 
    <div className=" flex gap-2 mt-5">
     <p>Already a Member?</p>
-    <Link to={'/Sign-in'}>
+    <Link to={'/Signin'}>
      <span
       className=" text-blue-500 
      hover:underline">
